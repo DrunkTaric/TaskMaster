@@ -1,0 +1,29 @@
+#buttons-wrapper {
+    gap: 0.4rem;
+    height: 4rem;
+    width: auto;
+}
+
+#buttons-wrapper button {
+    border: 0.2rem solid whitesmoke;
+    background-color: transparent;
+    border-radius: 0.3rem;
+    width: 4rem;
+}
+
+#buttons-wrapper button:hover {
+    background-color: whitesmoke;
+    color: #444444;
+    transition: all;
+    transform-style: flat;
+    transition-duration: 300ms;
+}
+
+#buttons-wrapper button {
+    font-size: x-large;
+}
+
+#buttons-wrapper button:disabled {
+    background-color: whitesmoke;
+    color: #444444;
+}
